@@ -11,9 +11,9 @@
 
 1. composer install
 
-2. Copy file .env.example, paste, rename menjadi .env
-Buat database baru di MySQL dengan nama 'dummy' atau nama lainnya
-Buka file .env, ubah nilai DB_DATABASE menjadi 'dummy'
+2. Copy file .env.example, paste, rename menjadi .env<br/>
+Buat database baru di MySQL dengan nama 'dummy' atau nama lainnya<br/>
+Buka file .env, ubah nilai DB_DATABASE menjadi 'dummy'<br/>
 
 3. php artisan key:generate
 
@@ -27,9 +27,9 @@ Buka file .env, ubah nilai DB_DATABASE menjadi 'dummy'
 
 8. Buka localhost:8000
 
-9. Untuk login:
-email: rizki@mail.com
-password: Ri123456
+9. Untuk login:<br/>
+email: rizki@mail.com<br/>
+password: Ri123456<br/>
 
 Selesai
 
