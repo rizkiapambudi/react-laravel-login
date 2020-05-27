@@ -34,7 +34,7 @@ import { Link } from 'react-router-dom'
                     <p>{article.content}</p>
                     <Link
                         className='btn btn-primary'
-                        to={`/`}
+                        to={`/app`}
                         >Back
                     </Link>
                   </div>

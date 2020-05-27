@@ -56,7 +56,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
       }
  
       onSuccess() {
-        this.props.history.push('/');
+        this.props.history.push('/app');
       }
  
       hideAlert() {
@@ -139,7 +139,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
                       </div>
                       <Link
                         className='btn btn-secondary'
-                        to={`/`}
+                        to={`/app`}
                         >Back
                       </Link>
                       &nbsp;

@@ -44,7 +44,7 @@ class ArticleCreate extends Component {
     }
  
     onSuccess() {
-        this.props.history.push('/');
+        this.props.history.push('/app');
     }
  
     hideAlert() {
@@ -116,7 +116,7 @@ class ArticleCreate extends Component {
                       </div>
                       <Link
                         className='btn btn-secondary'
-                        to={`/`}
+                        to={`/app`}
                         >Back
                       </Link>
                       &nbsp;
